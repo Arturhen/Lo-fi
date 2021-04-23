@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    <title>
+        Imersão Dev - Aula 05
+    </title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="page-title">
+            Aluraflix
+        </h1>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo"
+            alt="">
+        <p class="page-subtitle">
+            Adicione o seu lofi favorito
+        </p>
+        <div class="form-wrapper">
+            <input type="text" id="filme" name="filme" placeholder="Adicione o embed do youtube">
+          <input type="text" id="filme2" name="filme2" placeholder="Coloque o nome do video">
+            <button onClick="addMovie()">Adicionar Lofi</button>
+          <button onClick="instructions()">Instruções</button>
+        </div>
+    </div>
+    <div id="listaFilmes"></div>
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+  
+  <div id="youtube"> 
+    <div class="box"><article><iframe width="853" height="480" src="https://www.youtube.com/embed/f02mOEt11OQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></article><span>code-fi</span></div>
+    <div class="box"><article><iframe width="853" height="480" src="https://www.youtube.com/embed/GH5v7oIL_jc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></article><span>Brasil-Lofi</span></div>
+    <div class="box"><article><iframe width="853" height="480" src="https://www.youtube.com/embed/5qap5aO4i9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></article><span>Infinite live Lofi</span></div>
+    <div class="box"><article><iframe width="640" height="480" src="https://www.youtube.com/embed/yq3TbJB3IMs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></article><span>Funk Lofi</span></div>
+  </div>
+  
+  <!--  POP UP Instruções--! >
+  <!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div class="centralizar">Adicione seu próprio Lofi ou o que quiser:</div>
+        <p>
+        <br> 
+        1- Entre no video que deseja adicionar aqui
+        <br> 
+        2- Clique com o botão direito em cima dele
+        <br> 
+        3- Clique em Copiar codigo de implementação
+        <br>
+        4- Copie para a primeira Caixa de texto
+        <br>
+        5- Coloque o nome de preferencia na segunda
+        <br>
+        6- Divirta-se
+      </p>
+  </div>
+
+</div>
+  
+</body>
+
+</html>
